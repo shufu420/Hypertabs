@@ -20,7 +20,7 @@ const htHandler = (url) => {
 	return (
 		internal_pages[url] ||
 		internal_pages['newtab'] ||
-		alert('something is very wrong, please refresh')
+		alert('something is very very very VERY wrong, please refresh')
 	);
 };
 
@@ -258,7 +258,7 @@ let newTab = (url, uxor = true) => {
 	// creates a new hypertab!!
 	chromeTabs.addTab({
 		title: 'New Tab',
-		favicon: 'favicon.ico',
+		favicon: 'https://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/google-icon.png',
 	});
 
 	URL_BAR.value = '';
